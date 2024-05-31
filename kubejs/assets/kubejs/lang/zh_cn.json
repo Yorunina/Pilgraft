@@ -1,0 +1,20 @@
+{
+    "origin.kubejs.privileged.name": "富家子弟",
+    "origin.kubejs.privileged.description": "你出身于权贵之家，从小便不喑世事。但生得的一副好面孔，让你能够在旅途中无往而不利。",
+    "power.kubejs.keep_all_inventory.name": "保留全部物品栏",
+    "power.kubejs.keep_all_inventory.description": "你非常懂得管理自己的物品。在死亡后，你的任何物品都不会遗失。",
+    "power.kubejs.privileged/privileged_start_equipment.name": "富家遗产",
+    "power.kubejs.privileged/privileged_start_equipment.description": "尽管离家而去，你的家人仍旧在出行前给予你了一笔不菲的财富.",
+    "power.kubejs.full_sleep.name": "希望之梦",
+    "power.kubejs.full_sleep.description": "你对未来充满希望，每当你睡醒时，莫名的饱腹感会使你浑身充满动力！",
+    "power.kubejs.low_karma_result.name": "目标：业果未丰",
+    "power.kubejs.low_karma_result.description": "如诸史之起点，如万物之初生，如此番教条刚形之时——故事该开始了",
+    "power.kubejs.average_karma_result.name": "目标：业果平平",
+    "power.kubejs.average_karma_result.description": "曾一窥终极之奥，但奈何生为凡胎，唯有长叹、长叹",
+    "power.kubejs.high_karma_result.name": "目标：业果丰硕",
+    "power.kubejs.high_karma_result.description": "清心念去千缕杂音，行世间留万般善绩",
+    "power.kubejs.approaching_buddhahood.name": "目标：大愿将成",
+    "power.kubejs.approaching_buddhahood.description": "善果将熟，晨曦初露，或触手可及",
+    "power.kubejs.discerning_palate.name": "味蕾挑剔",
+    "power.kubejs.discerning_palate.description": "你无法忍受廉价的食物，当食用它们时，你将感到反胃"
+}

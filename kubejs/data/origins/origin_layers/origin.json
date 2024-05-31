@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "kubejs:privileged",
+    "kubejs:ascetic"
+  ],
+  "allow_random": true,
+  "allow_random_unchoosable": false,
+  "hidden": false
+}

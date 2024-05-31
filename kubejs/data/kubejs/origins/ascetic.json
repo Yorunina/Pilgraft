@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"kubejs:approaching_buddhahood",
+		"kubejs:ascetic/ascetic_attribute",
+		"kubejs:ascetic/ascetic_start_equipment",
+		"kubejs:increased_exhaustion"
+	],
+	"icon": {
+		"item": "treasure2:gold_coin"
+	},
+	"order": 0,
+	"impact": 0
+}

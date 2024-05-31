@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"kubejs:low_karma_result",
+		"kubejs:privileged/privileged_start_equipment",
+		"kubejs:full_sleep",
+		"kubejs:discerning_palate",
+		"kubejs:keep_all_inventory"
+	],
+	"icon": {
+		"item": "treasure2:gold_coin"
+	},
+	"order": 0,
+	"impact": 0
+}

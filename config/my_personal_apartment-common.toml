@@ -1,0 +1,151 @@
+
+#Bo's My Personal Apartment
+[Apartments]
+	#Maximum number of apartments per player.
+	#Range: 1 ~ 5
+	apartmentMaxNumberOfApartments = 1
+	#Broker fee for apartments. (0 = no fee)
+	#Range: 0 ~ 512
+	apartmentBrokerFee = 64
+
+["Tier 1 - Apartments"]
+	#Price for tier 1 apartments.
+	#Range: 0 ~ 10000
+	apartmentsTier1Price = 100
+	#List of tier 1 apartments structure.
+	apartmentsTier1 = ["my_personal_apartment:apartment/16x16/tier1/16x16_tier1_oak_apartment", "my_personal_apartment:apartment/16x16/tier1/16x16_tier1_spruce_apartment", "my_personal_apartment:apartment/16x16/tier1/16x16_tier1_acacia_apartment"]
+
+[Commands]
+	#Delay in seconds before a teleport command could be used again!
+	#Range: 1 ~ 300
+	generalCommandCoolDown = 30
+
+[Teleport]
+	#Enables teleport delay to avoid cheating!
+	teleportDelayEnabled = true
+	#Shows/hide the teleport countdown in the user chat.
+	teleportDelayCounterVisible = true
+	#Teleport delay in seconds a player needs to stand still to teleport.
+	#Range: 0 ~ 60
+	teleportDelayCounter = 10
+
+["Reception (Desert)"]
+	#Enables the desert reception structures.
+	receptionDesertEnabled = true
+	#List of small models for the desert reception.
+	receptionDesertSmallModel = ["my_personal_apartment:reception/desert/desert_small_reception_1"]
+	#Spawn weight for small models for the desert reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionDesertSmallModelSpawnWeight = 2
+	#List of medium models for the desert reception.
+	receptionDesertMediumModel = ["my_personal_apartment:reception/desert/desert_medium_reception_1"]
+	#Spawn weight for medium models for the desert reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionDesertMediumModelSpawnWeight = 1
+	#List of large models for the desert reception.
+	receptionDesertLargeModel = ["my_personal_apartment:reception/desert/desert_large_reception_1"]
+	#Spawn weight for large models for the desert reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionDesertLargeModelSpawnWeight = 1
+	#List of info models for the desert reception.
+	receptionDesertInfoModel = ["my_personal_apartment:reception/desert/desert_info_stand_1"]
+	#Spawn weight for info models for the desert reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionDesertInfoModelSpawnWeight = 1
+
+["Reception (Plains)"]
+	#Enables the plains reception structures.
+	receptionPlainsEnabled = true
+	#List of small models for the plains reception.
+	receptionPlainsSmallModel = ["my_personal_apartment:reception/plains/plains_small_reception_1"]
+	#Spawn weight for small models for the plains reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionPlainsSmallModelSpawnWeight = 2
+	#List of medium models for the plains reception.
+	receptionPlainsMediumModel = ["my_personal_apartment:reception/plains/plains_medium_reception_1"]
+	#Spawn weight for medium models for the plains reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionPlainsMediumModelSpawnWeight = 1
+	#List of large models for the plains reception.
+	receptionPlainsLargeModel = ["my_personal_apartment:reception/plains/plains_large_reception_1"]
+	#Spawn weight for large models for the plains reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionPlainsLargeModelSpawnWeight = 1
+	#List of info models for the plains reception.
+	receptionPlainsInfoModel = ["my_personal_apartment:reception/plains/plains_info_stand_1"]
+	#Spawn weight for info models for the plains reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionPlainsInfoModelSpawnWeight = 1
+
+["Reception (Savanna)"]
+	#Enables the savanna reception structures.
+	receptionSavannaEnabled = true
+	#List of small models for the savanna reception.
+	receptionSavannaSmallModel = ["my_personal_apartment:reception/savanna/savanna_small_reception_1"]
+	#Spawn weight for small models for the savanna reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSavannaSmallModelSpawnWeight = 2
+	#List of medium models for the savanna reception.
+	receptionSavannaMediumModel = ["my_personal_apartment:reception/savanna/savanna_medium_reception_1"]
+	#Spawn weight for medium models for the savanna reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSavannaMediumModelSpawnWeight = 1
+	#List of large models for the savanna reception.
+	receptionSavannaLargeModel = ["my_personal_apartment:reception/savanna/savanna_large_reception_1"]
+	#Spawn weight for large models for the savanna reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSavannaLargeModelSpawnWeight = 1
+	#List of info models for the savanna reception.
+	receptionSavannaInfoModel = ["my_personal_apartment:reception/savanna/savanna_info_stand_1"]
+	#Spawn weight for info models for the savanna reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSavannaInfoModelSpawnWeight = 1
+
+["Reception (Snowy)"]
+	#Enables the snowy reception structures.
+	receptionSnowyEnabled = true
+	#List of small models for the snowy reception.
+	receptionSnowySmallModel = ["my_personal_apartment:reception/snowy/snowy_small_reception_1"]
+	#Spawn weight for small models for the snowy reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSnowySmallModelSpawnWeight = 2
+	#List of medium models for the snowy reception.
+	receptionSnowyMediumModel = ["my_personal_apartment:reception/snowy/snowy_medium_reception_1"]
+	#Spawn weight for medium models for the snowy reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSnowyMediumModelSpawnWeight = 1
+	#List of large models for the snowy reception.
+	receptionSnowyLargeModel = ["my_personal_apartment:reception/snowy/snowy_large_reception_1"]
+	#Spawn weight for large models for the snowy reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSnowyLargeModelSpawnWeight = 1
+	#List of info models for the snowy reception.
+	receptionSnowyInfoModel = ["my_personal_apartment:reception/snowy/snowy_info_stand_1"]
+	#Spawn weight for info models for the snowy reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionSnowyInfoModelSpawnWeight = 1
+
+["Reception (Taiga)"]
+	#Enables the taiga reception structures.
+	receptionTaigaEnabled = true
+	#List of small models for the taiga reception.
+	receptionTaigaSmallModel = ["my_personal_apartment:reception/taiga/taiga_small_reception_1"]
+	#Spawn weight for small models for the taiga reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionTaigaSmallModelSpawnWeight = 2
+	#List of medium models for the taiga reception.
+	receptionTaigaMediumModel = ["my_personal_apartment:reception/taiga/taiga_medium_reception_1"]
+	#Spawn weight for medium models for the taiga reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionTaigaMediumModelSpawnWeight = 1
+	#List of large models for the taiga reception.
+	receptionTaigaLargeModel = ["my_personal_apartment:reception/taiga/taiga_large_reception_1"]
+	#Spawn weight for large models for the taiga reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionTaigaLargeModelSpawnWeight = 1
+	#List of info models for the taiga reception.
+	receptionTaigaInfoModel = ["my_personal_apartment:reception/taiga/taiga_info_stand_1"]
+	#Spawn weight for info models for the taiga reception. (0 = disabled)
+	#Range: 1 ~ 100
+	receptionTaigaInfoModelSpawnWeight = 1
+

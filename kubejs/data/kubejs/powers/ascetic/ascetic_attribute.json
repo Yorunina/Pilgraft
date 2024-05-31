@@ -1,0 +1,20 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": -0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": -0.5,
+            "operation": "multiply_total"
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.2,
+            "operation": "multiply_total"
+        }
+    ]
+}

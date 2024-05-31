@@ -1,0 +1,30 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "tag": "kubejs:simple_food"
+            }
+        ]
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:nausea",
+            "duration": 300,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_icon": true,
+            "show_particles": true
+        }
+    },
+    "food_modifier": {
+        "operation": "set_total",
+        "value": 0
+    },
+    "saturation_modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
+}
