@@ -1,0 +1,28 @@
+{
+	"variant": "shining",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [
+	  {
+		"type": "apotheosis:attribute",
+		"gem_class": {
+		  "key": "ring",
+		  "types": [
+			"curios:ring"
+		  ]
+		},
+		"attribute": "kubejs:treasure_distance",
+		"operation": "ADDITION",
+		"values": {
+		  "common": -10,
+		  "uncommon": -25,
+		  "rare": -50,
+		  "epic": -100,
+		  "mythic": -150,
+		  "ancient": -300
+		}
+	  }
+	]
+  }

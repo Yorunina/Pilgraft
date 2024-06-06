@@ -1,0 +1,1 @@
+global.NET_PRAY_KEY = 'pary_action_key'

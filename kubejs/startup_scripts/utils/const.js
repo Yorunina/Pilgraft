@@ -1,0 +1,1 @@
+const $ServerPlayer = Java.loadClass('net.minecraft.server.level.ServerPlayer')

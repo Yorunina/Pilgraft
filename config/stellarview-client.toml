@@ -25,7 +25,7 @@
 		#Disables the Sun
 		disable_sun = false
 		#Disables the Moon
-		disable_moon = false
+		disable_moon = true
 		#Disables Moon phases
 		disable_moon_phases = false
 		#Chance of a meteor shower happening each day

@@ -58,6 +58,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "waystones": {
     "waystone": true
   }
