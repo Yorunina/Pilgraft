@@ -50,6 +50,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.pack": true,
+    "colony.visitor_cost": true,
+    "colony.colonist": true,
+    "domum.materials": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
