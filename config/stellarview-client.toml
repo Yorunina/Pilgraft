@@ -30,13 +30,13 @@
 		disable_moon_phases = false
 		#Chance of a meteor shower happening each day
 		#Range: 0 ~ 100
-		meteor_shower_chance = 10
+		meteor_shower_chance = 5
 		#Chance of a shooting star appearing each 1000 ticks
 		#Range: 0 ~ 100
-		shooting_star_chance = 10
+		shooting_star_chance = 5
 		#Specifies the number of days it takes for the Earth to complete one orbit around the Sun
 		#Range: 1 ~ 512
-		overworld_year_length = 96
+		overworld_year_length = 32
 		#Controls how much the Overworld sky rotates when moving along the Z-axis
 		#Range: 1 ~ 3000
 		overworld_z_rotation_multiplier = 3000

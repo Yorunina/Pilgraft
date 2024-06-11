@@ -1,4 +1,10 @@
 {
+    "seals.seals": "称号",
+    "seal.im_new_here": "§6初来乍到",
+
+    "curios.identifier.mood": "心石",
+    "curios.identifier.sutra": "经文",
+
     "origin.kubejs.privileged.name": "富家子弟",
     "origin.kubejs.privileged.description": "你出身于权贵之家，从小便不喑世事。但生得的一副好面孔，让你能够在旅途中无往而不利。",
     "power.kubejs.keep_all_inventory.name": "保留全部物品栏",
@@ -16,5 +22,25 @@
     "power.kubejs.approaching_buddhahood.name": "目标：大愿将成",
     "power.kubejs.approaching_buddhahood.description": "善果将熟，晨曦初露，或触手可及",
     "power.kubejs.discerning_palate.name": "味蕾挑剔",
-    "power.kubejs.discerning_palate.description": "你无法忍受廉价的食物，当食用它们时，你将感到反胃"
+    "power.kubejs.discerning_palate.description": "你无法忍受廉价的食物，当食用它们时，你将感到反胃",
+
+    "advancement.kubejs.nirvana.the_root.title": "欢迎，新世界",
+    "advancement.kubejs.nirvana.the_root.desc": "创建一个世界并且获得任意物品",
+    "advancement.kubejs.nirvana.the_first.title": "第一伟绩",
+    "advancement.kubejs.nirvana.the_first.desc": "完成一条飞升道路",
+    "advancement.kubejs.nirvana.the_second.title": "第二伟绩",
+    "advancement.kubejs.nirvana.the_second.desc": "完成两条飞升道路",
+    "advancement.kubejs.nirvana.the_third.title": "第三伟绩",
+    "advancement.kubejs.nirvana.the_third.desc": "完成三条飞升道路",
+    "advancement.kubejs.nirvana.the_fourth.title": "第四伟绩",
+    "advancement.kubejs.nirvana.the_fourth.desc": "完成四条飞升道路",
+    "advancement.kubejs.nirvana.the_fifth.title": "第五伟绩",
+    "advancement.kubejs.nirvana.the_fifth.desc": "完成五条飞升道路",
+    "advancement.kubejs.nirvana.the_sixth.title": "第六伟绩",
+    "advancement.kubejs.nirvana.the_sixth.desc": "完成六条飞升道路",
+    "advancement.kubejs.nirvana.the_seventh.title": "第七伟绩",
+    "advancement.kubejs.nirvana.the_seventh.desc": "完成七条飞升道路",
+    "advancement.kubejs.nirvana.the_final.title": "涅槃",
+    "advancement.kubejs.nirvana.the_final.desc": "我或从谷底升起、或从山巅惊醒"
+    
 }

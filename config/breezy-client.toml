@@ -2,7 +2,7 @@
 [General]
 	#Should wind be displayed?
 	#Default: true
-	should_display_wind = true
+	should_display_wind = false
 	#Wind Frequency for: Forest, Taiga, and Desert biomes
 	#Default: 0.005
 	#Range: 0.0 ~ 1.0
