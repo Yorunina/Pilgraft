@@ -1,3 +1,7 @@
+/**
+ * Seal称号配方，key为翻译键相关
+ * @param {string} key 
+ */
 function SealRecipe(key) {
     this.lang_key = key
     this.type = 'seals:seal'

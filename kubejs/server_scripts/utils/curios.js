@@ -1,4 +1,3 @@
-// priority: 0
 function CuriosExtraContext() {
     return this
 }
@@ -30,19 +29,4 @@ function getEquippedCuriosByPriority(player) {
     if (!lazyOptCapability.isPresent()) return
     let curios = lazyOptCapability.resolve().get()
     return curios.getEquippedCurios().getAllItems()
-}
-
-/**
- * 
- * @param {Internal.ServerPlayer} player 
- * 
- */
-function getCurMoodState(player) {
-    let lazyOptCapability = player.getCapability(CuriosCapabilities.INVENTORY)
-    if (!lazyOptCapability.isPresent()) return
-    let curios = lazyOptCapability.resolve().get()
-    let moodStoneItems = curios.getCurios().get('mood').getStacks().getAllItems()
-    if (moodStoneItems.length <= 0) return
-    let moodStone = moodStoneItems.get(0)
-
 }
