@@ -2,8 +2,14 @@
     "seals.seals": "称号",
     "seal.im_new_here": "§6初来乍到",
 
+    "attribute.kubejs.treasure_distance": "宝藏距离",
+
     "curios.identifier.mood": "心石",
     "curios.identifier.sutra": "经文",
+
+    "text.apotheosis.category.curios:ring.plural": "戒指",
+    "text.apotheosis.category.curios:moodstone.plural": "心石",
+    "text.apotheosis.category.curios:belt.plural": "腰带",
 
     "origin.kubejs.privileged.name": "富家子弟",
     "origin.kubejs.privileged.description": "你出身于权贵之家，从小便不喑世事。但生得的一副好面孔，让你能够在旅途中无往而不利。",
@@ -41,6 +47,8 @@
     "advancement.kubejs.nirvana.the_seventh.title": "第七伟绩",
     "advancement.kubejs.nirvana.the_seventh.desc": "完成七条飞升道路",
     "advancement.kubejs.nirvana.the_final.title": "涅槃",
-    "advancement.kubejs.nirvana.the_final.desc": "我或从谷底升起、或从山巅惊醒"
+    "advancement.kubejs.nirvana.the_final.desc": "我或从谷底升起、或从山巅惊醒",
+
+    "item.apotheosis.gem.kubejs:custom/shining": "耀光宝石"
     
 }

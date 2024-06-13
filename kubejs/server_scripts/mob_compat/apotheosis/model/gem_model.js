@@ -104,8 +104,8 @@ GemClass.prototype = {
 function GemAttributeBonus() {
     this.type = GemBonusType_Attribute
     this.gem_class = {}
-    this.attribute = AttributeOperation_Addition
-    this.operation = ''
+    this.attribute = ''
+    this.operation = AttributeOperation_Addition
     this.values = {}
     return this
 }
@@ -148,7 +148,7 @@ GemAttributeBonus.prototype = {
      * @returns {GemAttributeBonus}
      */
     setSimpleValues: function (values) {
-        this.values = new GemAttributeBonusValues()
+        this.values = new GemBonusValues()
             .setCommon(values.length > 0 ? values[0] : 0)
             .setUncommon(values.length > 1 ? values[1] : values[-1])
             .setRare(values.length > 2 ? values[2] : values[-1])

@@ -1,11 +1,12 @@
-//
+// priority: 1000
 ServerEvents.highPriorityData(event => {
     /**
      * 注册宝石
      * @param {Gem} gem 
      */
     function registerGem(gem) {
-        event.addJson(`kubejs:gems/${gem.variant}.json`, gem)
+        event.addJson(`kubejs:gems/custom/${gem.variant}.json`, gem)
+        console.info(JSON.stringify(gem))
     }
 
     registerGem(new Gem('shining')
