@@ -50,6 +50,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "exposure": {
+    "lightroom": true
+  },
   "jadecolonies": {
     "colony.citizens": true,
     "colony.pack": true,

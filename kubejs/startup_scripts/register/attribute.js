@@ -24,6 +24,12 @@ StartupEvents.registry("attribute", event => {
 
 
     /**
+     * 归家渴望：能够提高归家心石的积累次数上限
+     */
+    event.createCustom("kubejs:way_home_longing", () => new $RangedAttribute("attribute.kubejs.way_home_longing", 3, 3, 128).setSyncable(true))
+
+    
+    /**
      * 自然庇佑：影响着所有自然系祈祷能力的效果
      */
     event.createCustom("kubejs:natrue_bless", () => new $RangedAttribute("attribute.kubejs.natrue_bless", 0, 0, 1024).setSyncable(true))

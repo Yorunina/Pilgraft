@@ -1,8 +1,20 @@
+const $DropRule = Java.loadClass('top.theillusivec4.curios.api.type.capability.ICurio$DropRule')
+
 StartupEvents.registry('minecraft:item', event => {
     event.create('golden_ring')
         .texture('kubejs:item/curios/golden_ring')
         .maxStackSize(1)
         .tag('curios:ring')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .canEquip(() => true))
+            .canEquip(() => true)
+            .getDropRule(() => $DropRule.ALWAYS_KEEP))
+
+    event.create('the_13th_wish')
+        .texture('kubejs:item/curios/the_13th_wish')
+        .maxStackSize(1)
+        .tag('curios:ring')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip(() => true)
+            .canUnequip(() => false)
+            .getDropRule(() => $DropRule.ALWAYS_KEEP))
 })

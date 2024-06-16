@@ -9,6 +9,12 @@ const $CitizenSkill = Java.loadClass('com.minecolonies.api.entity.citizen.Skill'
 const $ICitizenSkillHandler = Java.loadClass('com.minecolonies.api.entity.citizen.citizenhandlers.ICitizenSkillHandler')
 const $IColonyManager = Java.loadClass('com.minecolonies.api.colony.IColonyManager')
 
+// 心石通用
+const MoodStoneDataKey = 'moodStone'
+// 归家心石
+const WayHomeStoneDataKey = 'wayHome'
+const BiomeListDataKey = 'biomeList'
+
 // 神化宝石相关
 const GemBonusType_Attribute = 'apotheosis:attribute'
 const GemBonusType_MobEffect = 'apotheosis:mob_effect'
@@ -32,4 +38,9 @@ const Curios_Ring = 'curios:ring'
 const Curios_Belt = 'curios:belt'
 const Curios_MoodStone = 'curios:moodstone'
 const Curios_Sutra = 'curios:sutra'
-const Curios_hat = 'curios:hat'
+const Curios_Hat = 'curios:hat'
+const Curios_Back = 'curios:back'
+const Curios_Feet = 'curios:feet'
+const Curios_Hands = 'curios:hands'
+const Curios_Necklace = 'curios:necklace'
+const Curios_Talisman = 'curios:talisman'

@@ -26,7 +26,7 @@ ItemEvents.entityInteracted('book_of_knowledge', event => {
 
 /**
  * @param {Internal.Entity} target 
- * @returns {Internal.ICivilianData}
+ * @returns {Internal.ICitizenData}
  */
 function getCitizenFromEntity(target) {
     let colonyId = target?.nbt.getInt('colony')
