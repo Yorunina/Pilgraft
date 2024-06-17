@@ -11,7 +11,6 @@ BlockEvents.broken(event => {
     })
 })
 
-
 /**
  * 方块破坏策略
  * @constant

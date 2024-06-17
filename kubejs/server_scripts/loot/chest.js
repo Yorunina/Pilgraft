@@ -16,13 +16,14 @@ const $TreasureItems = Java.loadClass('mod.gottsch.forge.treasure2.core.item.Tre
 function spawnLockedChest(level, pos, player) {
     let chest = $TreasureBlocks.WOOD_CHEST.get()
     player.tell(level.setBlockAndUpdate(pos, chest.defaultBlockState()))
-
+    /**@type {Internal.ContainerEntity} */
     let blockEntity = level.getBlockEntity(pos)
-
-    if (blockEntity != null) {
-        blockEntity.setChanged()
-    }
+    if (!blockEntity.isPresent()) return
+    blockEntity.insertItem(Item.of('minecraft:stick', false))
+    if (blockEntity == null) return
+    blockEntity.setChanged()
 }
+
 
 ItemEvents.rightClicked('minecraft:stick', event => {
     spawnLockedChest(event.level, event.player.getPosition(1.0), event.player)

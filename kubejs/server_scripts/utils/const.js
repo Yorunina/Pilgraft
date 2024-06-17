@@ -1,4 +1,9 @@
+// 原版
 const $ServerPlayer = Java.loadClass('net.minecraft.server.level.ServerPlayer')
+const $MapItemSavedData = Java.loadClass('net.minecraft.world.level.saveddata.maps.MapItemSavedData')
+const $MapItem = Java.loadClass('net.minecraft.world.item.MapItem')
+const $MapDecorationType = Java.loadClass('net.minecraft.world.level.saveddata.maps.MapDecoration$Type')
+const $RandomizableContainerBlockEntity = Java.loadClass('net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity')
 
 // 通用
 const AttributeOperation_Addition = 'ADDITION'

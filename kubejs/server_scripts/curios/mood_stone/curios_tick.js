@@ -11,7 +11,6 @@ global.WayHomeStoneTick = (item, slotContext) => {
     if (player.age % 20 != 0) return
     if (!player.isPlayer()) return
     updateWayHomeStoneTick(slotContext)
-
 }
 
 /**
@@ -22,8 +21,8 @@ global.WayHomeStoneTick = (item, slotContext) => {
 global.WayHomeStoneOnEquip = (itemFrom, slotContext, itemTo) => {
     let player = slotContext.entity()
     if (!player.isPlayer()) return
+    initPlayerCompound(player)
     initWayHomeStoneBar(player)
-
 }
 
 
@@ -35,7 +34,7 @@ global.WayHomeStoneOnEquip = (itemFrom, slotContext, itemTo) => {
 global.WayHomeStoneOnUnequip = (itemFrom, slotContext, itemTo) => {
     let player = slotContext.entity()
     if (!player.isPlayer()) return
-    player.paint({ barBackGround: { visible: false }, resourceBarOverlay: { visible: false }, warpBarOverlay: { visible: false } })
+    disableWayHomeStoneBar(player)
 }
 
 
@@ -94,15 +93,24 @@ function disableWayHomeStoneBar(player) {
     // 是否可见
     let visible = false
     player.paint({
-        lootLuckBackGround: {
+        wayHomeLongingBackGround: {
             visible: visible
         },
-        lootLuckOverlay: {
-            visible: visible
-        }, barCountText: {
+        wayHomeLongingOverlay: {
             visible: visible
         }
     })
 }
 
-// 渲染虔诚值
+/**
+ * @param {Internal.ServerPlayer} player 
+ * @returns 
+ */
+function initPlayerCompound(player) {
+    let moodStoneData = player.persistentData.getCompound(MoodStoneDataKey)
+    if (!moodStoneData) moodStoneData = player.persistentData.put(MoodStoneDataKey, {})
+    let wayHomeStoneData = moodStoneData.getCompound(WayHomeStoneDataKey)
+    if (!wayHomeStoneData) wayHomeStoneData = moodStoneData.put(WayHomeStoneDataKey, {})
+    let biomeList = wayHomeStoneData.getList(BiomeListDataKey)
+    if (!biomeList) wayHomeStoneData = wayHomeStoneData.put(BiomeListDataKey, [])
+}
